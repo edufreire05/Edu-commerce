@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 820" width="720" height="820"><defs>
+ <radialGradient id="bg" cx="58%" cy="38%" r="72%"><stop stop-color="#fff4e9"/><stop offset=".57" stop-color="#e3d8e9"/><stop offset="1" stop-color="#e3d8e9" stop-opacity=".85"/></radialGradient>
+ <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff9e9"/><stop offset=".54" stop-color="#d4cbba"/><stop offset="1" stop-color="#aaa49c"/></linearGradient>
+ <linearGradient id="purple" x1="0" y1="0" x2=".95" y2="1"><stop stop-color="#dfc8f9"/><stop offset=".5" stop-color="#9985db"/><stop offset="1" stop-color="#5148a7"/></linearGradient>
+ <linearGradient id="console" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d9d8d8"/><stop offset=".58" stop-color="#a4a6a8"/><stop offset="1" stop-color="#717681"/></linearGradient>
+ <linearGradient id="orange" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffe59b"/><stop offset=".45" stop-color="#ff8b38"/><stop offset="1" stop-color="#ed4b52"/></linearGradient>
+ <linearGradient id="dark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#52505d"/><stop offset=".45" stop-color="#242434"/><stop offset="1" stop-color="#10101b"/></linearGradient>
+ <linearGradient id="horizon" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#39265d"/><stop offset=".5" stop-color="#e46685"/><stop offset="1" stop-color="#ffb769"/></linearGradient>
+ <filter id="shadow" x="-50%" y="-50%" width="200%" height="210%"><feGaussianBlur stdDeviation="24"/></filter>
+ <filter id="subtle" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="2" dy="12" stdDeviation="12" flood-color="#282334" flood-opacity=".25"/></filter>
+ <pattern id="dots" width="21" height="21" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#000" opacity=".08"/></pattern>
+ </defs>
+ <rect width="720" height="820" fill="url(#bg)"/><rect width="720" height="820" fill="url(#dots)"/>
+ <circle cx="550" cy="154" r="240" fill="#fff" opacity=".16"/>
+ <path d="M0 670L720 560V820H0Z" fill="#fff" opacity=".11"/>
+ <ellipse cx="360" cy="664" rx="244" ry="50" fill="#27192f" opacity=".23" filter="url(#shadow)"/>
+ <g filter="url(#subtle)" transform="rotate(-7 355 400)"><path d="M103 400L248 291H563L642 427L512 583H160Z" fill="#786b86"/><path d="M110 388L248 289H560L632 410L515 548H162Z" fill="url(#console)" stroke="#e2dee8" stroke-width="7"/><path d="M245 337h300l55 85H178Z" fill="#777086"/><path d="M255 348h280l37 60H215Z" fill="#423f50"/><path d="M165 440h436l-78 94H175Z" fill="#a5a5ad"/><rect x="248" y="476" width="150" height="17" rx="8" fill="#484356"/><rect x="427" y="475" width="34" height="21" rx="7" fill="#49434e"/><circle cx="538" cy="479" r="13" fill="#65606d"/><text x="390" y="385" fill="#e8e2ec" text-anchor="middle" font-family="Arial,sans-serif" font-size="39" font-weight="900" letter-spacing="1">SUPER 16</text><text x="339" y="527" fill="#54505c" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3">REWIND  /  1991</text></g>
+ <g font-family="Arial,sans-serif" letter-spacing="5" font-size="13" fill="#29252b" opacity=".42"><text x="45" y="60">REWIND® / ARCHIVE</text><text x="45" y="775">OBJECT NO. 02</text><text x="607" y="775">© 26</text></g>
+ <path d="M45 80H675" stroke="#333" opacity=".16" stroke-width="1"/>
+ </svg>
